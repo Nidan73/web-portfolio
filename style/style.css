@@ -153,7 +153,6 @@ footer input[type="text"],
 input[type="email"],
 textarea {
   border-radius: 5px;
-  display: block;
   border: none;
   height: 64px;
   width: 100%;

@@ -1,0 +1,50 @@
+* {
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: default;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.primary-text {
+  color: #fd6e0a;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+  /* text-align: justify; */
+}
+
+.button-primary {
+  background-color: #fd6e0a;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 18px 35px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+.dark-2 {
+  color: #474747;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-title {
+  font-weight: bolder;
+  font-size: 45px;
+}

@@ -13,7 +13,9 @@
   background-position: top left, bottom right;
   padding: 38, 23, 25, 23;
 }
-
+main {
+  max-width: 1140px;
+}
 .primary-text {
   color: #fd6e0a;
 }

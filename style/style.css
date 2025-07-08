@@ -5,6 +5,14 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+.header {
+  background-color: #fff8f3;
+  background-image: url("../assets/images/developer.png"),
+    url("../assets/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  padding: 38, 23, 25, 23;
+}
 
 .primary-text {
   color: #fd6e0a;
@@ -43,4 +51,29 @@ nav ul li a {
 .nav-title {
   font-weight: bolder;
   font-size: 45px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 230px;
+}
+.banner-content {
+  max-width: 580px;
+}
+.banner-greeting {
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-name {
+  font-size: 85px;
+  font-weight: bold;
+}
+.banner-para {
+  font-size: 18px;
+  font-weight: 400;
+  color: #474747;
+}
+.banner-pp {
+  height: 676px;
+  width: 584px;
 }

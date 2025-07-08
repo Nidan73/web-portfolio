@@ -75,6 +75,9 @@ nav ul li a {
   height: 676px;
   width: 584px;
 }
+.text-center {
+  text-align: center;
+}
 .section-title {
   font: bold;
   font-size: 35px;
@@ -127,4 +130,9 @@ main section {
   justify-content: space-around;
   gap: 24px;
   margin-top: 50px;
+}
+.resume-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
 }

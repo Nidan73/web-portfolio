@@ -136,3 +136,27 @@ main section {
   justify-content: space-around;
   gap: 24px;
 }
+.bg {
+  background-color: #fff8f3;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 150px;
+  padding: 50px 200px;
+}
+textarea {
+  resize: none;
+  /* optional: hide any overflow scrollbar */
+  overflow: auto;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  border-radius: 5px;
+  border: none;
+  height: 64px;
+  width: 461px;
+  padding: 18px 30px;
+  margin: 20px 0;
+}

@@ -147,7 +147,6 @@ main section {
 }
 footer textarea {
   resize: none;
-  /* optional: hide any overflow scrollbar */
   overflow: auto;
 }
 footer input[type="text"],
